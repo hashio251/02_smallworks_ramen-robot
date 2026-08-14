@@ -28,12 +28,10 @@ function getUserWantInfo() {
   // 選択された種類のラーメン一覧を取得
   const selectedRamenList = ramenTaste[selectedTaste];
 
-
   // ランダムな番号
   const randomChoiceStore = Math.floor(Math.random() * selectedRamenList.length);
   // 1店舗選ぶ
   const selectedRamen = selectedRamenList[randomChoiceStore];
-
   // 表示
   storeNameDisplay.textContent = selectedRamen.name;
   storeStationDisplay.textContent = `${selectedRamen.station}駅が最寄りロボ ♪`;
