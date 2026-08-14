@@ -1,5 +1,8 @@
 # 🍜 RAMEN ROBOT
 
+![RAMEN ROBOT](./reccommend-ramen-robots_thumbnail.gif)
+
+
 > **NO RAMEN, NO LIFE.**
 
 食べたいラーメンの種類を選ぶと、
